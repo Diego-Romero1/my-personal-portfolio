@@ -1,0 +1,135 @@
+
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 0px;
+    gap: 13rem;
+    margin: 0 2rem;
+}
+.title__container{
+    display: flex;
+    flex-direction: column;
+
+}
+.title__profile{
+    width: 23rem;
+    height: 23rem;
+    border-radius: 50%;
+}
+.title__bio{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.25rem;
+    line-height: 3.813rem;
+}
+.title__subsection{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.375rem;
+    line-height: 1.625;
+    color: #464646;
+}
+.title__network{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0.125rem;
+}
+.title__network__item{
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.375rem;
+    line-height: 1.688rem;
+    color: #464646;
+    padding-right: 2rem;
+}
+.title__network__item a:hover{
+    font-style: #2A7AE4;
+    text-decoration: underline;
+    color: #0d67db;
+}
+
+@media (max-width: 768px) {
+    .title__div{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .title__container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 0.5rem;
+        
+    }
+    .title__profile{
+        width: 9.125rem;
+        height: 9.125rem;
+    }
+    .title__bio{
+        font-size: 1.375rem;
+    }
+    .title__subsection{
+        font-size: 1rem;
+    }
+    .title__network{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 2rem;
+    }
+    .title__network__item{
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 1.188rem;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .title__div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px;
+        gap: 16px;
+    }
+    .title__profile{
+        width: 100px;
+        height: 100px;
+    }
+    .title__container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .title__bio{
+        font-size: 1.125rem;
+        line-height: normal;
+    }
+
+    .title__network{
+        width: 80%;
+    }
+    .title__network__item{
+        font-weight: 600;
+        font-size: 0.875rem;
+        line-height: 1.028rem;
+        padding: 0;
+    }
+   
+
+   
+}

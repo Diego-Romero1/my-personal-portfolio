@@ -1,0 +1,30 @@
+.experiencia__botao--repo {
+    box-sizing: border-box;
+    gap: 10px;
+    width: 116px;
+    height: 51px;
+    border: 1px solid #2A7AE4;
+    border-radius: 2rem;
+    color: #2A7AE4;
+}
+
+.experiencia__botao--repo:hover {
+    background: #044aa6;
+    color: #fff;
+}
+
+
+.experience__botao--demo {
+    padding: 16px;
+    gap: 10px;
+    width: 116px;
+    height: 51px;
+    background: #2A7AE4;
+    border-radius: 2rem;
+    border-style: none;
+    color: #fff;
+}
+.experience__botao--demo:hover{
+    background: #044aa6;
+    color: #fff;
+}

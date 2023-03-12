@@ -1,0 +1,18 @@
+section.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .footer__rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__rodape p{
+        font-size: 0.875rem;
+        text-align: center;
+    }
+}
