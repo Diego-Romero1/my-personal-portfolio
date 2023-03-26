@@ -42,6 +42,10 @@ section.menu {
 
 }
 
+.menu__list__item__contato{
+    font-weight: 700;
+}
+
 .menu__list__item__contato a:hover{
     font-weight: 400;
     font-size: 1.125rem;
