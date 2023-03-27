@@ -23,6 +23,10 @@
     font-weight: 700;
     font-size: 3.25rem;
     line-height: 3.813rem;
+    margin-bottom: 0;
+}
+#modifier{
+    margin: 0;
 }
 .title__subsection{
     font-family: 'Raleway';

@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Referencia de la hoja de estilo de Css -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/css/title.css">
@@ -30,7 +29,7 @@
             <img src="assets/images/vector.png">
             <h3 class="menu__title">Diego Romero</h3>
         </header>
-        <nav>
+        <nav class="navigator">
             <ul class="menu__list">
                 <li class="menu__list__item"><a href="#sobre-mi">Sobre Mi</a></li>
                 <li class="menu__list__item"><a href="#skills">Skills</a></li>
@@ -45,7 +44,8 @@
         <div class="title__div">
             <img class="title__profile" src="assets/images/photoRomero.jpg">
             <div class="title__container">
-                <h2 class="title__bio" id="sentence" class="sentence">Hola, mi nombre es Diego y construyo paginas web</span><span class="input__cursor"></span></h2>
+                <h2 class="title__bio" id="sentence" class="sentence">Hola, mi nombre es Diego y construyo paginas web</h2> 
+                <h2 class="title__bio" id="modifier">con <span class="auto-type"></span></h2>
                 
                 <h3 class="title__subsection">Soy formado en CFP Nº 401 y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
                 <ul class="title__network">
@@ -284,7 +284,8 @@
             </div>
         </section>
     </div>
-<script src="./assets/js/validation-inputs.js" type="module"></script>
-<script src="./assets/js/typing.js" type="module"></script>
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+    <script src="./assets/js/validation-inputs.js" type="module"></script>
+    <script src="./assets/js/typing.js" type="module"></script>
 </body>
 </html>
